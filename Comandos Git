@@ -1,0 +1,30 @@
+COMANDOS PARA DESCARGAR, MODIFICAR, ACTUALIZAR,
+VER ESTADO DEL DIRECTORIO, SUBIR AL REPOSITORIO ARCHIVOS.
+
+
+*git clone (Mas la direccion URL del repositorio)
+(Comando para clonar o descargar, desde github, nuestro
+repositorio, a nuestro Working Directory (EL cual es
+nuestra area de trabajo local, en la carpeta donde queremos
+que se guarde).
+
+* git status (Comando para ver el estado, del directorio,
+para ver los archivos modificados, hay que hacerlo dentro 
+de la carpeta del repo.)
+
+* git add (nombre de archivo) .(si realizamos este comando,
+el archivo se pasara al stagin area(lugar donde se colocan todos
+los archivos a subir))
+
+* git diff (si quieres saber exactamente lo que ha cambiado,
+ no sólo qué archivos fueron modificados, diferencias entre el stagin area y
+nuestro working directory)
+
+* git add (nombre de archivo al cual se ha modificado para que pase al staging
+area de nuevo con las modificaciones)
+
+* git commit (para mover el archivo a nuestro repositorio actualizado
+* git commit -m (mensaje) (se usa para enviar un mensaje con la actualizacion para tener 
+organizacion en las versiones)
+* git push (subira los archivos al repositorio)
+
